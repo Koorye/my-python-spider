@@ -7,4 +7,4 @@
 - `music_spider.py`  依次尝试使用虾米、QQ、网易云、酷狗、百度音乐搜索并爬取mp3
 - `auto_mooc.py` 自动中国大学 Mooc 互评脚本
 - `auto_taobao.py` 自动淘宝抢购脚本
-- `boohee_health_spider.py` 薄荷健康食物热量爬
+- `boohee_health_spider.py` 薄荷健康食物热量爬取
