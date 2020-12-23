@@ -20,7 +20,7 @@ class Window:
     def login(self):
         self.driver.find_element_by_class_name('ux-login-set-scan-code_ft_back').click()
         self.driver.find_element_by_xpath('//ul[@class="ux-tabs-underline_hd"]/li[2]').click()
-        time.sleep(5)
+        time.sleep(15)
         self.driver.switch_to.frame(self.driver.find_element_by_xpath(
             '/html/body/div[4]/div[2]/div/div/div/div/div/div/div/div/div/div[1]/div/div[1]/div[2]/div[2]/div/iframe'))
         time.sleep(0.5)
