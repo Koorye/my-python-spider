@@ -51,7 +51,7 @@ class Window:
         self.driver.find_element_by_class_name('j-selfevabtn').click()
         time.sleep(5)
         self.evaluate_mooc()
-        print("[INFO] 自评完成")
+        print("[INFO] >>> 自评完成")
         self.driver.refresh()
 
     def evaluate_mooc_repeat(self):
