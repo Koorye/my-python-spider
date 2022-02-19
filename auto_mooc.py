@@ -3,9 +3,13 @@
 # @Title: 中国大学 Mooc 自动互评脚本
 # @Date: 2020/10/30
 # @Author: Koorye
+
+# %%
+
 import selenium.webdriver
 import time
 
+# %%
 
 class Window:
     def __init__(self):
